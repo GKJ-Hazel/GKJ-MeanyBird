@@ -17,8 +17,4 @@ public class GameController : MonoBehaviour
 
     }
 }
-//Game manager object
-[Header("Game Controller Object for controlling the game")]
-public GameController gameController;
-[Header("Default Velocity")]
-public float velocity = 5
+
