@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class Move : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
+  
 
     // Update is called once per frame
     void Update()
     {
+        //Trasnform the object to move to left
+        //according to the axis and speed
+        transform.position += Vector3.left * speed * Time.deltaTime;
 
     }
+
+    [Header("Default Speed")]
+    //Speed for the movement
+    public float speed;
 }
